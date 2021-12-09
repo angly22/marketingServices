@@ -1,0 +1,103 @@
+
+.padre{
+    background-color: #162D54;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+   
+} 
+.padre5{
+  background-color: #162D54;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+  object-fit: contain;
+ 
+} 
+.padre3{
+    background-color: rgb(245, 243, 243);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+    object-fit: contain;
+}
+ /* .container-img2{
+      background-color: rgb(233, 13, 13);
+
+    } */
+  .cardsimg{
+    width: 30%;
+    float: left; 
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  /* .cardsimg:hover {
+    transform: scale(1.1);
+  } */
+
+  .imgcontent{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center; 
+  }
+  .titleimage2{
+      text-align: center;
+      margin-top: 50px;
+    font-size: 35px;
+    color: rgb(241, 226, 226);
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .texto2{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(247, 239, 239);
+    font-family: 'Montserrat', sans-serif;
+  }
+  @media  screen and (min-width: 960px) {
+    .content-blog-container {
+      width: 84%;
+    }
+    
+  }
+  
+  @media  screen and (min-width: 320px) {
+    .container-img2 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .cardsimg:img{
+      align-items: center;
+      display: flex;
+      position: relative;
+    }
+
+  }
+  
+  @media  screen and (max-width: 780px) {
+    .cards-item {
+      margin-bottom: 2rem;
+    }
+  }
