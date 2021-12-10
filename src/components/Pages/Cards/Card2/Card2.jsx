@@ -1,13 +1,14 @@
 import React from "react";
 import "./Card2.css";
-import image from "../../../../images/mk1.jpg";
+import image from "../../../../images/mk5.jpg";
 
 function Card2() {
   return (
     
       <div className="container-card2">
         <div className="container-img-2">
-          <img src={image} alt="25" className="img-card-2" />
+          <img src={image} alt="25" 
+          className="img-card-2" />
         </div>
           <div className="imgcontent-card2">
           <h1 className="titleimage2">Paid Advertising on All Channels</h1>

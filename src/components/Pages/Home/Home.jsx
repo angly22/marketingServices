@@ -8,17 +8,19 @@ import Card5 from '../Cards/Card5/Card5'
 
 
 import '../Home/Home.css'
+import Footer from '../../Footer/Footer'
 function Home() {
     return (
         <div>
        <Header/>
        <Card1/>
        <Card2/>
-       {/* <Card3/>
+       <Card3/>
        <Card4/>
        <Card5/>
        <Card6/>
-       <Card7/> */}
+     <Card7/>
+     <Footer/>
       </div>
     )
 }

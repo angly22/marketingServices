@@ -1,0 +1,119 @@
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.card5 {
+    border-top:1px solid #977c00;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+}
+  h1 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(54, 53, 53);
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px;
+  }
+  
+  .cards-container-5 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .cards-wrapper-5{
+    position: relative;
+    margin: 50px 0 45px;
+  }
+  
+  .cards-items-5 {
+    margin-bottom: 24px;
+  }
+  .cards-item-5 {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+
+  h3{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(27, 26, 26);
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
+  /* .container-img{
+      background-color: white;
+  } */
+  .cardsimg{
+    width: 30%;
+    float: left; 
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  /* .cardsimg:hover {
+    transform: scale(1.1);
+  } */
+
+  /* .imgcontent{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center; 
+  } */
+  /* .titleimage{
+      text-align: center;
+      margin-top: 50px;
+    font-size: 35px;
+    color: rgb(54, 53, 53);
+    font-family: 'Montserrat', sans-serif;
+
+  }
+
+  .texto{
+    text-align: center;
+    margin-top: 50px;
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(43, 41, 41);
+    font-family: 'Montserrat', sans-serif;
+  } */
+  @media  screen and (min-width: 960px) {
+    .content-blog-container {
+      width: 84%;
+    }
+    
+  }
+  
+  @media  screen and (min-width: 780px) {
+    .cards-items5 {
+      display: flex;
+    }
+    .cards-wrapper-5 h3{
+      color: white;
+    }
+  }
+  
+  @media  screen and (max-width: 780px) {
+    .cards-item5 {
+      margin-bottom: 2rem;
+    }
+    .cards-items5 h3{
+      color: white;
+    }
+  }
