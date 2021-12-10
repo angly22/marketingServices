@@ -1,6 +1,5 @@
 import React from "react";
 import "../Card2/Card2.css";
-import image from "../../../../images/mk1.jpg";
 
 function Card5() {
   return (
