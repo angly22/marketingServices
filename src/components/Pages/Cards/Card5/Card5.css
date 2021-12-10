@@ -48,7 +48,7 @@ video{
   h3{
     text-align: center;
     font-size: 15px;
-    color: rgb(27, 26, 26);
+    color: rgb(43, 41, 41);
     font-family: 'Montserrat', sans-serif;
   }
 
@@ -103,17 +103,12 @@ video{
   @media  screen and (min-width: 780px) {
     .cards-items5 {
       display: flex;
-    }
-    .cards-wrapper-5 h3{
-      color: white;
+  
     }
   }
   
   @media  screen and (max-width: 780px) {
     .cards-item5 {
       margin-bottom: 2rem;
-    }
-    .cards-items5 h3{
-      color: white;
     }
   }
