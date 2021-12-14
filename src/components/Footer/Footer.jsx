@@ -12,7 +12,7 @@ function Footer() {
           I want more Information About This
         </p>
         <p className="footer-desciption-text">
-            You Can Be "Luxury Presence"</p>
+            You Can Be "Luxury"</p>
         <div className="input-areas">
           <form>
             <input
@@ -41,28 +41,11 @@ function Footer() {
                   <Link to='/'>Support</Link>
                   <Link to='/'>Portfolio</Link>
                   <Link to='/'>Referrals</Link>
-                  <Link to='/'>charity</Link>
+                  <Link to='/'>Charity</Link>
                   
               </div>
               </div>
-              {/* <div className="footer-link-wrapper">
-              <div className="footer-link-items">
-                  <h2>Book</h2>
-                  <Link to='/contact'>Photos</Link>
-                  <Link to='/contact'>Videos</Link>
-                  <Link to='/contact'>Media</Link>
-                  <Link to='/contact'>Stories</Link>
-                  
-              </div>
-
-                    <div class='footer-link-items'>
-                    <h2>Social Media</h2>
-                    <Link to='/'>Instagram</Link>
-                    <Link to='/'>Facebook</Link>
-                    <Link to='/'>Youtube</Link>
-                    <Link to='/'>Twitter</Link>
-                </div>
-                </div> */}
+            
           
       </div>
       <section className="social-media">

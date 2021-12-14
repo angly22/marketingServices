@@ -60,7 +60,7 @@
   }
   
   .nav-links:hover {
-    border-bottom: 2px solid #fff;
+    border-bottom: 3px solid #977c00;
     transition: all 0.5s ease-out;
   }
   

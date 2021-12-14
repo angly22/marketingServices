@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 import { Link } from "react-router-dom";
-import log_gatien from "../../images/log_gatien.png";
+import MARKETING from "../../images/MARKETING.png";
 import { FiMenu, FiX } from "react-icons/fi";
 //import { Button } from "../Helpers/Button/Button";
 import './Navbar.css'
@@ -37,7 +37,7 @@ function Navbar() {
           <Link to="/" className="navbar-logo">
             <img
               id="logoNav"
-              src={log_gatien}
+              src={MARKETING}
               className="logo"
               alt="300px"
               width="200px"

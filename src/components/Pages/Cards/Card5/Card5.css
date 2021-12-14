@@ -53,9 +53,6 @@ video{
   }
 
 
-  /* .container-img{
-      background-color: white;
-  } */
   .cardsimg{
     width: 30%;
     float: left; 
@@ -63,36 +60,7 @@ video{
     margin-left: 20px;
     margin-top: 15px;
   }
-  /* .cardsimg:hover {
-    transform: scale(1.1);
-  } */
-
-  /* .imgcontent{
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    text-align: center; 
-  } */
-  /* .titleimage{
-      text-align: center;
-      margin-top: 50px;
-    font-size: 35px;
-    color: rgb(54, 53, 53);
-    font-family: 'Montserrat', sans-serif;
-
-  }
-
-  .texto{
-    text-align: center;
-    margin-top: 50px;
-    padding: 10px;
-    font-size: 15px;
-    color: rgb(43, 41, 41);
-    font-family: 'Montserrat', sans-serif;
-  } */
+ 
   @media  screen and (min-width: 960px) {
     .content-blog-container {
       width: 84%;

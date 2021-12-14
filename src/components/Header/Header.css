@@ -28,7 +28,8 @@ video{
 
 .header-btns .btn:hover{
    
-    color: #162d54
+    color: #977c00;
+    opacity: 0.8;
 }
 .headerContainer > h1{
   color: #fff;
