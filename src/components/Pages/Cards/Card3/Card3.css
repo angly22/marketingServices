@@ -60,7 +60,7 @@
 
 @media  screen and (max-width: 560px) {
   .container-img-3{
-    min-width: 90%;
+    min-width:60%;
   }
   .imgcontent-card3{
     min-width: 90%;

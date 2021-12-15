@@ -4,7 +4,7 @@
   opacity: 50;
   
 }
-  h1 {
+.cards-h1-card1 {
     text-align: center;
     font-size: 35px;
     color: #162d54;
@@ -35,7 +35,7 @@
     border-radius: 10px;
   }
 
-  h3{
+  .cards-h3-card1{
     text-align: center;
     font-size: 15px;
     color: #162d54;
@@ -99,5 +99,12 @@
   @media  screen and (max-width: 780px) {
     .cards-item {
       margin-bottom: 2rem;
+    }
+    .cards-h1-card1 {
+    text-align:center;
+    font-size: 25px;
+    }
+    .cards-h3-card1{
+      text-align: justify;
     }
   }

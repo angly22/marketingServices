@@ -29,6 +29,8 @@ video{
     max-width: 1120px;
     width: 90%;
     margin: 0 auto;
+    background: linear-gradient(15deg,transparent,#fff);
+
   }
   .cards-wrapper-5{
     position: relative;
@@ -48,8 +50,9 @@ video{
   h3{
     text-align: center;
     font-size: 15px;
-    color: rgb(43, 41, 41);
+    color: rgb(5, 5, 5);
     font-family: 'Montserrat', sans-serif;
+    
   }
 
 
@@ -73,12 +76,16 @@ video{
       display: flex;
   
     }
-    
+   
   }
   
   @media  screen and (max-width: 780px) {
     .cards-item5 {
       margin-bottom: 2rem;
-      background : linear-gradient(45deg, transparent, #fff)
+      
     }
+    .cards-container-5 {
+      text-align:justify;
+       margin-left: 12px;
+     }
   }

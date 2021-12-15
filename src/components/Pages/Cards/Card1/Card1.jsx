@@ -5,14 +5,14 @@ function Card1() {
   return (
     <>
       <div className="cards">
-        <h1>
+        <h1 className="cards-h1-card1">
           Why you should hire an agent who has partnered with a luxury real
           estate marketing company.
         </h1>
         <div className="cards-container">
           <div className="cards-wrapper">
             <ul className="cards-items">
-              <h3>
+              <h3 className="cards-h3-card1"> 
                 One of the biggest perks of working with a real estate agent is
                 their ability to market your property to the right target
                 audience. A professional agent with the right experience will be
